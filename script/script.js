@@ -1,5 +1,5 @@
 function generateResponse() {
-    const responses = ["jamais", "oui", "non", "peut-être"];
+    const responses = ["Jamais", "Oui", "Non", "Peut-être"];
     const randomIndex = Math.floor(Math.random() * responses.length);
     const response = responses[randomIndex];
 
