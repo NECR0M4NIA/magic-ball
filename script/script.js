@@ -5,3 +5,5 @@ function generateResponse() {
 
     document.getElementById("response").innerText = response;
 }
+
+document.getElementById("messageInput").addEventListener("keyup", function(event) { if (event.key === "Enter") generateResponse(); });
